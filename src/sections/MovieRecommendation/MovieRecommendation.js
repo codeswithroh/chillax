@@ -15,7 +15,7 @@ function MovieRecommendation() {
         const options = ["Enjoyment", "Surprise", "Trust"];
         const recommend = options[Math.floor(Math.random() * options.length)];
         axios
-          .get(`https://cc670n.deta.dev/movies/?emotion=${recommend}`, {
+          .get(`https://2xyegl.deta.dev/movies/?emotion=${recommend}`, {
             httpsAgent,
           })
           .then((res) => {
@@ -28,7 +28,7 @@ function MovieRecommendation() {
         const options = ["Sad", "Disgust", "Anger", "Anticipation", "Fear"];
         const recommend = options[Math.floor(Math.random() * options.length)];
         axios
-          .get(`https://cc670n.deta.dev/movies/?emotion=${recommend}`, {
+          .get(`https://2xyegl.deta.dev/movies/?emotion=${recommend}`, {
             httpsAgent,
           })
           .then((res) => {
