@@ -1,0 +1,81 @@
+.home {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #e8e9ee;
+}
+
+.home__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #1d5dff;
+}
+
+.home__sub-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: #273339;
+}
+
+.home__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.home__movie,
+.home__chat {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1em;
+  color: #273339;
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    #ebecf0;
+  background-blend-mode: soft-light, normal;
+  /* shadow20 */
+
+  border: 1.50701px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  box-shadow: -12.0561px -12.0561px 24.1122px #fafbff,
+    12.0561px 12.0561px 24.1122px #a6abbd;
+  border-radius: 41.4428px;
+}
+
+.movie_container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.movie_poster {
+  height: 50vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.movie_title,
+.movie_plot {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #273339;
+  max-width: 70vh;
+}
+.movie_title {
+  font-size: 2rem !important;
+}

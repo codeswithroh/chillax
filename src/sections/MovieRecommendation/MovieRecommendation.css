@@ -1,0 +1,54 @@
+.MovieRecommendation {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.headingContainer {
+  position: absolute;
+  top: 1;
+  left: 0;
+  right: 0;
+}
+
+.movie_heading,
+.movie_sub-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #273339;
+}
+
+.movie_heading {
+  margin-top: 2em;
+}
+
+.movie_sub-heading {
+  margin-bottom: 2em;
+}
+
+.movie_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  gap: 2em;
+  padding: 2em;
+  margin: 3em 0;
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    #ebecf0;
+  background-blend-mode: soft-light, normal;
+  /* shadow20 */
+
+  border: 1.50701px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  box-shadow: -24.1122px -24.1122px 48.2243px #fafbff,
+    24.1122px 24.1122px 48.2243px #a6abbd;
+  border-radius: 41.4428px;
+}
