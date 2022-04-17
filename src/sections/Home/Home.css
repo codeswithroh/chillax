@@ -55,27 +55,8 @@
   border-radius: 41.4428px;
 }
 
-.movie_container {
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-
-.movie_poster {
-  height: 50vh;
-  width: 100%;
-  object-fit: contain;
-}
-
-.movie_title,
-.movie_plot {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  color: #273339;
-  max-width: 70vh;
-}
-.movie_title {
-  font-size: 2rem !important;
+@media only screen and (max-width: 500px) {
+  .home__title {
+    font-size: 5rem;
+  }
 }
